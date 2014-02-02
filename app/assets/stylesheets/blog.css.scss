@@ -54,6 +54,8 @@ header {
   background: image-url("Sunset-Art-Background.jpg");
   background-position: center;
   background-size: cover;
+  max-width: 1150px;
+  margin: auto;
 
 }
 
@@ -136,6 +138,15 @@ section {
   footer {
     margin-top: 25px;
     margin-bottom: 80px;
+
+    p {
+      font-size: .8em;
+
+      span {
+        float: right;
+      }
+    }
+
   }
 
   .created_at {

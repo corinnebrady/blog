@@ -6,8 +6,7 @@
         <p><%== @post.body.gsub("\n", "<br>") %></p>
       </article>
       <footer>
-        <p>- Corinne </p>
-        <p class='created_at'><%= @post.created_at.strftime("Posted: %B %d, %Y") %></p>
+        <p>By: Corinne <span><%= @post.created_at.strftime("Posted: %B %d, %Y") %></span></p>
       </footer>
 
       <%= link_to 'Back', posts_path, :class => 'post_buttons' %>

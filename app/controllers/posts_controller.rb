@@ -37,7 +37,7 @@ class PostsController < ApplicationController
     if @post.update_attributes(params[:post])
       redirect_to @post
     else
-      render action: "edit"
+      render :edit
     end
   end
 
