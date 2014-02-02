@@ -35,22 +35,22 @@ h1 {
   font-size: 2.9em;
 
   a {
-    color: red;
+    color: black;
   }
   a:hover {
-    color: red;
+    color: #E82C0C;
     background-color: rgba(0, 0, 0, 0);
     text-decoration: none;
   }
   a:visited {
-    color: red;
+    color: black;
   }
 }
 /*--------------------------------
               HEADER
 --------------------------------*/
 header {
-  background: url('http://www.mrwallpaper.com/wallpapers/Sunset-Art-Background.jpg');
+  background: image-url("Sunset-Art-Background.jpg");
   background-position: center;
   background-size: cover;
 
