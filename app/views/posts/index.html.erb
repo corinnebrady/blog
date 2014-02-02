@@ -8,7 +8,7 @@
       </article>
       <footer>
         <p>- Corinne </p>
-        <p class='created_at'>Posted: <%= post.created_at %></p>
+        <p class='created_at'><%= post.created_at.strftime("Posted: %B %d, %Y") %></p>
       </footer>
 
     </div>
