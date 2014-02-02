@@ -1,0 +1,18 @@
+<% @posts.reverse.each do |post| %>
+  <section>
+    <div class='post'>
+
+      <h2><%= link_to post.title, post %></h2>
+      <article>
+        <p><%== post.body.gsub("\n", "<br>") %></p>
+      </article>
+      <footer>
+        <p>- Corinne </p>
+        <p class='created_at'>Posted: <%= post.created_at %></p>
+      </footer>
+
+    </div>
+  </section>
+<% end %>
+
+
