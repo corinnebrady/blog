@@ -20,8 +20,6 @@ end
 gem 'jquery-rails'
 
 
-# To use debugger
-# gem 'debugger'
 
 gem 'sextant' #see routes in the browser (.../rails/routes)
 
