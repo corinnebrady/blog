@@ -19,14 +19,14 @@ end
 
 gem 'jquery-rails'
 
-
+gem 'newrelic_rpm'
 
 gem 'sextant' #see routes in the browser (.../rails/routes)
 
 
 group :development, :test do
   gem 'pry-rails'
-  gem 'pry-debugger'
+  # gem 'pry-debugger'
   gem 'pry-stack_explorer'
 
   gem 'annotate'
